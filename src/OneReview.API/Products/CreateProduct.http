@@ -1,0 +1,14 @@
+# @name create
+
+POST {{host}}/products
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "Name": "P1",
+  "Category": "C1",
+  "SubCategory": "C1:1"
+}
+
+###
+GET {{create.response.headers.Location}}

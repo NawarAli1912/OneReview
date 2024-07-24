@@ -1,0 +1,7 @@
+
+GET https://google.com
+# Headers
+Content-Type: application/json
+{
+
+}
